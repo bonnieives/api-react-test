@@ -1,0 +1,16 @@
+.table {
+    background-color: antiquewhite;
+}
+
+.table thead {
+    background-color: aquamarine;
+}
+
+.table td {
+    padding: 5px 5px;
+    white-space: nowrap;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(215, 237, 250);
+}

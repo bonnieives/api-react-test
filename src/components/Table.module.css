@@ -1,10 +1,15 @@
 .table {
-    background-color: antiquewhite;
+    background-color: rgb(238, 203, 158);
 }
 
-.table thead {
-    background-color: aquamarine;
+.table th{
+    background-color: rgb(169, 219, 248);
 }
+
+.table th:hover{
+    cursor: pointer;
+}
+
 
 .table td {
     padding: 5px 5px;
@@ -13,4 +18,11 @@
 
 tr:nth-child(odd) {
     background-color: rgb(215, 237, 250);
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: #AAA;
+    color: white;
 }
